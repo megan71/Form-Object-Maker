@@ -1,0 +1,25 @@
+<style>
+
+ul#menu {
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+ul#menu li {
+	display: inline;
+	margin-right: 3px;
+}
+
+ul#menu li a {
+	background-color: #ffffff;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #2D2C2A;
+	border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+	color: white;
+	background-color: #2D2C2A;
+}
+</style>
