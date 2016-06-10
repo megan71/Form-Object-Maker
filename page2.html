@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<style>
+			nav#nav01{
+				margin-left: 8%;
+			}
+			body{
+				background-color: #78C1CC;
+			}
+			div#total{
+				border-radius: 15px; /*curve edges*/
+				background-color: #0995A2;
+				margin-left:10%; 
+				margin-right:10%;
+			}
+			#logo{
+				height: 15%;
+			}
+			#info{
+				border-radius: 15px;
+				background-color: white;
+				margin-left:10%; 
+				margin-right:10%;
+				color:#2D2C2A;
+				text-align: left;
+				text-indent: 2%;
+			}
+			#title{
+				color:white;
+			}
+
+		</style>
+	</head>
+	<body>
+		<img id= "logo" src="logo.png">
+		<br>
+		<nav id="nav01"></nav> <!-- important -->
+		<script src="navbar.js"></script>
+		<script src="profile.js"></script> 
+		<div id= "total">
+			<center>
+				<h1 id="title"> Profile </h1>
+				<div id="info">
+					<p id="name"> </p> <!-- These elements will be filled later with the javascript codes -->
+					<p id="email"> </p>
+					<p id="state"> </p>
+					<p id="date"> </p>
+				</div>
+			</center>
+			<br>
+		</div>
+	</body>
+</html>
